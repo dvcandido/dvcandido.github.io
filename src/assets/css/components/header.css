@@ -1,24 +1,30 @@
+@import url(../base/_variables.css);
+
 header {
-    padding: 20px 0;
+    padding: 50px 0;
+    background: var(--bg-primary-dark);
+    width: 100%;
 }
 
-header h1 {
-    font-size: 22px;
-}
-
-.header-container {
-    position: relative;
-    width: 900px;
+header .wrap{
+    width: 1200px;
     margin: 0 auto;
-    text-align: center;
+}
+
+.title-area {
+    display: inline-block;
+    height: 40px;
+    width: 450px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 50px;
 }
 
 nav {
-    margin: 100px 0;
-    text-align: center;
+    float: right;
 }
 
 nav li {
-    display: block;
-    margin: 15px 0;
+    display: inline-block;
+    padding: 15px 15px;
 }

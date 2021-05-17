@@ -1,0 +1,14 @@
+.forest {
+    height: 793px;
+    background: url(../../img/Background.png);
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content p{
+    margin: 30px 0;
+
+}

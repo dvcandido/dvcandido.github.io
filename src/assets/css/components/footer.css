@@ -1,0 +1,27 @@
+@import url(../base/_variables.css);
+
+footer {
+    background: var(--bg-primary-dark);
+    padding: 50px 0 40px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-text li {
+    display: inline-block;
+    padding: 30px 20px;
+
+}
+
+.footer-text img {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(124deg) brightness(104%) contrast(101%);
+    width: 50px;
+    height: 50px;
+}

@@ -4,14 +4,15 @@ import "../../assets/css/components/header.css";
 const Header = () => {
   return (
     <header>
-      <div className="header-container">
-        <h1>Douglas | Software Engineer</h1>
+      <div className="wrap">
+        <div className="title-area">
+          <span>[DC]-Software Engineer</span>
+        </div>
         <nav>
           <ul>
-            <li>About Me</li>
             <li>Works</li>
-            <li>Contact ME</li>
-            <li>Exit</li>
+            <li>About Me</li>
+            <li>Contact</li>
           </ul>
         </nav>
       </div>
